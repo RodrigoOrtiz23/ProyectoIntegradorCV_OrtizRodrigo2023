@@ -102,6 +102,46 @@ body {
     font-weight: 300;
 }
 
+.formacion li{
+    margin-bottom: 15px;
+}
+
+.formacion h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.formacion h4{
+    color: #fff;
+    font-weight: 500;
+}
+
+.lenguaje li{
+    margin-bottom: 15px;
+}
+
+.lenguaje span {
+    color: #fff;
+    font-weight: 500;
+}
+
+.lenguaje .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.lenguaje .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
 .contenedor .left_side{
     position: relative;
     background: #003147;
