@@ -3,7 +3,6 @@ const nombre = document.getElementById('nombre');
 const telefono = document.getElementById('telefono');
 const email = document.getElementById('email');
 const direccion = document.getElementById('direccion');
-const html = document.getElementById('html');
 
 const Cargadeperfil = async () => {
     try {
@@ -16,6 +15,7 @@ const Cargadeperfil = async () => {
         telefono.textContent = datos.cell;
         email.textContent = datos.email;
         direccion.textContent = datos.location.country+", "+datos.location.city;
+        console.log(datos);
 
     } catch (error) {
         console.log(error);
